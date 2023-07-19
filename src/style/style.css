@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Pangolin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pangolin", cursive;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+.btn {
+  font-family: "Lilita One", cursive;
+  border: none;
+  font-size: 80px;
+  background-color: rgb(192, 255, 238);
+  padding: 5px 15px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: rgb(27, 179, 225);
+}
+
+.meme {
+  text-align: center;
+}
+.img-meme {
+  display: inline-block;
+  max-height: 700px;
+  max-width: 700px;
+}
+/* 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #ddd;
+  border-top-color: #7449f5;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+ */
